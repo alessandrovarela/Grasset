@@ -1,0 +1,83 @@
+********************************************************************************
+1 octobre 2018
+
+Exercices supplémentaires mélangeant des tableaux, des matrices et des
+fonctions.
+
+Ces exercices sont facultatifs. J'évaluerai formativement le code des étudiants
+qui le souhaitent et publierai un solutionnaire vendredi.
+
+Un fichier pilote est disponible (t2supp.c)
+
+********************************************************************************
+
+
+********************************************************************************
+1. Rotation de tableau
+********************************************************************************
+Programmez une fonction qui calcule la rotation d'un premier tableau et la met
+dans un deuxième tableau. Pour faire la rotation d'un tableau, toutes les cases
+sont décalées d'une position vers la droite. La valeur dans la dernière case se
+déplace dans la première.
+
+Exemples :
+avant = {1, 2, 3, 4, 5, 6}, apres = {6, 1, 2, 3, 4, 5}
+avant = {10, 20}, apres = {20, 10}
+avant = {1}, apres = {1}
+
+La signature de la fonction est
+
+void rotationDroite(int avant[], int apres[], int taille)
+
+
+********************************************************************************
+2. Rotation de tableau, n fois.
+********************************************************************************
+Effectuez la rotation un nombre de fois fourni en paramètre.  Un nombre négatif
+indique une rotation vers la gauche. Un nombre nul indique pas de rotation du
+tout.
+
+void rotationDroiteNbFois(int avant[], int apres[], int taille, int nb)
+
+
+********************************************************************************
+3. La bordure
+********************************************************************************
+Programmez une fonction qui reçoit une matrice d'entiers et ses dimensions et
+qui remplace son contenu par des 0 partout, sauf sur la bordure, ou elle met des
+1.
+
+Exemples :
+{{5,5,5},         {{1,1,1},
+ {5,5,5}, devient  {1,0,1},
+ {5,5,5}}          {1,1,1}}
+
+{{4,5,6,7,8,8,8,8},         {{1,1,1,1,1,1,1,1},
+ {0,1,2,3,4,5,6,7},          {1,0,0,0,0,0,0,1},
+ {8,9,3,3,8,8,8,8}, devient  {1,0,0,0,0,0,0,1},
+ {8,9,3,3,8,8,8,8},          {1,0,0,0,0,0,0,1},
+ {0,0,0,0,8,8,8,8}}          {1,1,1,1,1,1,1,1}}
+
+{{4}} devient {{1}}
+
+La signature de la fonction est
+
+void bordure(const int R, const int C, int matrice[R][C])
+
+
+********************************************************************************
+4. La transposée
+********************************************************************************
+Programmez une fonction qui évalue la transposée d'une matrice carrée et la met
+dans une deuxieme matrice. La transposée d'une matrice est pareille, sauf que
+les colonnes deviennent les rangées et les rangées deviennent les colonnes.
+
+Exemples
+avant =           après =
+{{1,2,3},         {{1,4,7},
+ {4,5,6},          {2,5,8},
+ {7,8,9}}          {3,6,9}}
+
+La signature de la fonction est
+
+void transpose(const int R, int avant[R][R], int apres[R][R])
