@@ -1,0 +1,43 @@
+==================================================================================
+		     Hébergement et enregistrement de domaine
+==================================================================================
+                               | Service Choisi |
+
+Hébergement Web pour la fourniture de services d'hébergement, de serveurs dédiés
+et d'enregistrement de domaine.
+==================================================================================
+                                | Public Cible |
+Petites, moyennes, grandes entreprises, gestionnaires de technologies, 
+entrepreneurs, particuliers souhaitant faire appel à des services d'hébergement Web,
+au cloud computing et à l'enregistrement de domaines.
+==================================================================================
+                                | Lien Dropmark |
+
+https://alessandrovarela.dropmark.com/689747
+==================================================================================
+                             | Police de caractere |
+
+Roboto
+Lato
+==================================================================================
+		       | Codes pour les couleurs |
+
+#888;
+#1e1859
+rgb(231, 232, 238)
+#fff
+#050542
+#f9f9ff
+rgba(40, 25, 114, 0.1)
+#999999
+#dbd9e6
+rgba(254, 254, 255, 0.1)
+#0c112a
+==================================================================================
+                          | Sites webs des concurrents |
+
+- https://www.hostgator.com
+- https://whc.ca/en
+- https://www.bluehost.com/
+- https://www.namecheap.com/hosting/
+- https://www.hostinger.com/
